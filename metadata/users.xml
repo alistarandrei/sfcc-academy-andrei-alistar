@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<users xmlns="http://www.demandware.com/xml/impex/user/2007-09-05">
+    <user login="andrei.alistar@outlook.com" enabled-flag="true">
+        <credentials>
+            <external-id>d57adb0e-b294-4a1e-8a5b-febf700a6315</external-id>
+        </credentials>
+        <profile>
+            <first-name>Andrei</first-name>
+            <last-name>Alistar</last-name>
+            <email>andrei.alistar@outlook.com</email>
+        </profile>
+    </user>
+
+</users>
