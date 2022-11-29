@@ -5,7 +5,10 @@
 </div>
 <div class="row">
     <div class="col-12">
-        <form action="${pdict.actionUrls.submitCouponCodeUrl}" class="promo-code-form" method="GET" name="promo-code-form">
+        <div data-toggle="collapse" data-target="#example" style="cursor: pointer;">
+            <span>${Resource.msg('label.promo.code.coupon', 'cart', null)}</span>
+        </div>
+        <form class="collapse" id="example" action="${pdict.actionUrls.submitCouponCodeUrl}" class="promo-code-form" method="GET" name="promo-code-form">
             <div class="form-group">
                 <label for="couponCode">${Resource.msg('label.promo.code','cart',null)}</label>
                 <div class="row">
