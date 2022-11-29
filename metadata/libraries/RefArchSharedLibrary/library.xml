@@ -5728,6 +5728,15 @@ Sintonizzatore esterno ATSC DTB-H260F Samsung&lt;/div&gt;&#13;
         </content-links>
     </content>
 
+    <content content-id="ex3-asset">
+        <display-name xml:lang="x-default">Creating a content asset</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <custom-attributes>
+            <custom-attribute attribute-id="body" xml:lang="x-default">&lt;h1 style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-size:20px;&quot;&gt;Picturesque view&lt;/span&gt;&lt;/h1&gt;&#13;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&#13;&lt;p&gt;&lt;img alt=&quot;view of lake bled&quot; height=&quot;336&quot; src=&quot;picturesque-view-of-lake-bled-in-autumn-slovenia-beautiful-landscape-with-colorful-trees-on-the-hills-reflected-in-the-water-photo.jpg?$staticlink$&quot; title=&quot;ex3-asset&quot; width=&quot;500&quot; /&gt;&lt;/p&gt;</custom-attribute>
+        </custom-attributes>
+    </content>
+
     <content content-id="faqs">
         <display-name xml:lang="x-default">FAQs</display-name>
         <display-name xml:lang="fr-FR">FAQ</display-name>
