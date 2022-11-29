@@ -5,6 +5,9 @@
 </div>
 <div class="row">
     <div class="col-12">
+        <div style="cursor: pointer;">
+            <span class="coupon-code-click">${Resource.msg('label.promo.code.coupon', 'cart', null)}</span>
+        </div>
         <form action="${pdict.actionUrls.submitCouponCodeUrl}" class="promo-code-form" method="GET" name="promo-code-form">
             <div class="form-group">
                 <label for="couponCode">${Resource.msg('label.promo.code','cart',null)}</label>
