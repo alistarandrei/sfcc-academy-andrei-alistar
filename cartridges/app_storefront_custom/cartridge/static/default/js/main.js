@@ -2706,6 +2706,17 @@ module.exports = function (include) {
 
 /***/ }),
 
+/***/ "./cartridges/app_storefront_custom/cartridge/client/default/js/components/clickCoupon.js":
+/*!************************************************************************************************!*\
+  !*** ./cartridges/app_storefront_custom/cartridge/client/default/js/components/clickCoupon.js ***!
+  \************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+
+
+/***/ }),
+
 /***/ "./cartridges/app_storefront_custom/cartridge/client/default/js/components/test.js":
 /*!*****************************************************************************************!*\
   !*** ./cartridges/app_storefront_custom/cartridge/client/default/js/components/test.js ***!
@@ -2729,6 +2740,7 @@ var processInclude = __webpack_require__(/*! ./util */ "./cartridges/app_storefr
 $(document).ready(function () {
   processInclude(__webpack_require__(/*! ../../../../../app_storefront_base/cartridge/client/default/js/main */ "./cartridges/app_storefront_base/cartridge/client/default/js/main.js"));
   processInclude(__webpack_require__(/*! ./components/test */ "./cartridges/app_storefront_custom/cartridge/client/default/js/components/test.js"));
+  processInclude(__webpack_require__(/*! ./components/clickCoupon */ "./cartridges/app_storefront_custom/cartridge/client/default/js/components/clickCoupon.js"));
 });
 
 /***/ }),
