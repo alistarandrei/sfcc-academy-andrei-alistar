@@ -5,6 +5,10 @@
         assets.addCss('/css/search.css');
     </isscript>
 
+     <div class="container">
+        <isinclude template="modularISML/customButtons" />
+    </div>
+
     <isslot
         id="cat-landing-slotbanner-m"
         context="category"

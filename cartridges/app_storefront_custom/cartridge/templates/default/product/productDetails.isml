@@ -6,6 +6,10 @@
         assets.addCss('/css/product/detail.css');
     </isscript>
 
+     <div class="container">
+        <isinclude template="modularISML/customButtons" />
+    </div>
+
     <isset name="product" value="${pdict.product}" scope="page" />
     <isset name="isQuickView" value="${false}" scope="page" />
     <isset name="isProductSet" value="${pdict.product.productType === 'set'}" scope="page" />
