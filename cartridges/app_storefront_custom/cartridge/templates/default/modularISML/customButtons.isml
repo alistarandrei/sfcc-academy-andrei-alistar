@@ -1,0 +1,22 @@
+<isif condition="${pdict.isHome || pdict.isProduct || pdict.isSearch}">
+    <isif condition="${pdict.isHome == true}">
+        <div>
+            <h3>${Resource.msg('label.page', 'homePage', null)} </h3>
+            <a href="${URLUtils.https('Account-Show')}" class="btn btn-primary mb-3">${Resource.msg('button.link.gotomyaccount', 'homePage', null)} </a>
+        </div>
+    </isif>
+
+    <isif condition="${pdict.isProduct == true}">
+        <div>
+            <h3>${Resource.msg('label.page', 'product', null)} </h3>
+            <a href="${URLUtils.https('Home-Show')}" class="btn btn-primary mb-3">${Resource.msg('button.link.gotohomepage', 'product', null)} </a>
+        </div>
+    </isif>
+    
+    <isif condition="${pdict.isSearch == true}">
+        <div>
+            <h3>${Resource.msg('label.page', 'search', null)} </h3>
+            <a href="${URLUtils.https('Home-Show')}" class="btn btn-primary mb-3">${Resource.msg('button.link.gotohomepage', 'search', null)} </a>
+        </div>
+    </isif>
+</isif>
