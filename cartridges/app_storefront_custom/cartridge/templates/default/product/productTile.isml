@@ -3,6 +3,8 @@
     <isinclude template="product/components/productTileImage" />
     <div class="tile-body">
 
+        <isinclude template="product/components/badge" />
+
         <isif condition="${pdict.display.swatches !== false}">
             <isinclude template="product/components/productTileSwatch" />
         </isif>
