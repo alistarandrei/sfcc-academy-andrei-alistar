@@ -1,3 +1,3 @@
  <div>
-    <span class="container category-badge">${Resource.msg('badge.label','productTile',null)}</span>
+    <span style="--badge-color: ${'red'}; --text-color: ${'white'};" class="container category-badge">${Resource.msg('badge.label','productTile',null)}</span>
 </div>
